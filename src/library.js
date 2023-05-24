@@ -1,0 +1,10 @@
+import './js/fetchUrl';
+import './js/localstorage';
+import './js/firebase';
+import './js/gallery-card-modal';
+import './js/spinner';
+import './js/modal-teem';
+import './js/pagination';
+import './js/switcherTheme';
+import './js/button-up';
+import './js/lib-render';

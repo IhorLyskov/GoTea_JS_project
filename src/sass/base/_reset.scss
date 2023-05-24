@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(./../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: $main;
+}
+.list {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.day {
+  background-color: $text-secondary;
+  color: $main;
+}
+.night {
+  background-color: $main;
+  color: $text-secondary;
+}
+.no-scroll {
+  overflow: hidden;
+}
+.backdrop {
+  position: fixed;
+  transition: opacity 0.25s, visibility 0.25s;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.56);
+}
